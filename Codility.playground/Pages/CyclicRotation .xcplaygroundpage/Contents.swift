@@ -38,22 +38,24 @@
  */
 
 public func solution(_ A : inout [Int], _ K : Int) -> [Int] {
-    
-    for _ in 1 ... K {
-        var tempA = A
-        for i in 0 ..< A.count {
-            if i == A.count - 1 {
-                tempA[0] = A[i]
-            } else {
-                tempA[i+1] = A[i]
-            }
-            
+    for _ in 0 ..< K {
+        guard A.count > 0 else {
+            break
         }
-        print(tempA)
+        var tempA = A
+        let last = A.count - 1
+        for i in 0 ... last {
+            if i == 0 {
+                tempA[0] = A[last]
+            } else {
+                tempA[i] = A[i-1]
+            }
+        }
+        A = tempA
     }
     
     return A
 }
 
-var array = [3, 8, 9, 7, 6]
-print(solution(&array, 3))
+var array:[Int] = []
+print(solution(&array, 0))
