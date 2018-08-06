@@ -3,5 +3,6 @@
     <pages>
         <page name='BinaryGap'/>
         <page name='CyclicRotation '/>
+        <page name='OddOccurrencesInArray '/>
     </pages>
 </playground>
