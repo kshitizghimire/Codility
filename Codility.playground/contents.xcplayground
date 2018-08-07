@@ -4,5 +4,6 @@
         <page name='BinaryGap'/>
         <page name='CyclicRotation '/>
         <page name='OddOccurrencesInArray '/>
+        <page name='FrogJmp'/>
     </pages>
 </playground>
