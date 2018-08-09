@@ -61,10 +61,10 @@ public func solution(_ A : inout [Int]) -> Int {
     currentdiff = abs(leftSum - rightSum)
     minimalDiff = currentdiff
     
-    var j = 2
-    while j < A.count {
-        leftSum += A[j-1]
-        rightSum -= A[j-1]
+    var j = 1
+    while j < A.count - 1 {
+        leftSum += A[j]
+        rightSum -= A[j]
         currentdiff = abs(leftSum - rightSum)
 
         if currentdiff < minimalDiff {
