@@ -6,5 +6,6 @@
         <page name='OddOccurrencesInArray '/>
         <page name='FrogJmp'/>
         <page name='PermMissingElem '/>
+        <page name='TapeEquilibrium '/>
     </pages>
 </playground>
