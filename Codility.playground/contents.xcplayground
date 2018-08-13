@@ -8,5 +8,6 @@
         <page name='PermMissingElem '/>
         <page name='TapeEquilibrium '/>
         <page name='PermCheck '/>
+        <page name='FrogRiverOne '/>
     </pages>
 </playground>
