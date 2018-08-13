@@ -7,5 +7,6 @@
         <page name='FrogJmp'/>
         <page name='PermMissingElem '/>
         <page name='TapeEquilibrium '/>
+        <page name='PermCheck '/>
     </pages>
 </playground>
